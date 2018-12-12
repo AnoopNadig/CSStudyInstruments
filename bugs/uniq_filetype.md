@@ -1,8 +1,8 @@
 ## Meta
 * Project: uniq
 * Project Bug Identifier: 
-* Link to Bug on Project Bug Tracker: 
-* Current Stage: 
+* Link to Bug on Project Bug Tracker: https://bugs.launchpad.net/ubuntu/+source/coreutils/+bug/1808095
+* Current Stage: Bug Fix Submitted to Project
 * Brief description (This can change as you progress) :
 
 The command 'uniq' does not throw an error when the filetype of input is changed to a block device.
