@@ -39,6 +39,8 @@ I was unable to work on this project.
 **Current Stage: Bug Hunting**
 
 Unable to complete the replay as I encountered two system calls without any handlers. Here are the links to their issues:
+
 fstatat64(): https://github.com/pkmoore/rrapper/issues/86
+
 fchownat(): https://github.com/pkmoore/rrapper/issues/87
 
