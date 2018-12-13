@@ -1,0 +1,3 @@
+* Reviewing the source code for uniq revealed that the problem exists because the current implementation of the internal function freopen() does not check for the file type being passed as an input. Begun investigating ways to perform the required check.
+* Continued working on dmesg and tested using the ReverseTimeMutator and manually changing the time in the snip file but no discernable differences were observed during the replay.
+* Since I wasn't able to ascertain any time related bugs for iostat I started looking for file type related bugs but the replay failed when the system calls stat64() and write() were in the snip file. Here's the [link to the issue](https://github.com/pkmoore/rrapper/issues/81) I raised which turned out to be an ongoing issue. 
