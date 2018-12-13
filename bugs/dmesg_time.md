@@ -13,7 +13,7 @@
 
 **Current Stage: Bug Hunting**
 
-Unable to replay the test as I was getting an 'mmap_backing_files' error. TRied many workarounds to get past this issue.
+Unable to replay the test as I was getting an 'mmap_backing_files' error. Tried many workarounds to get past this issue.
 
 
 ### Week 4
