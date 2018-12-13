@@ -1,0 +1,3 @@
+* Continued troubleshooting the issues of using crashsim as a root user. The most significant issue was that the 'syscall_definitions.pickle ' file hadn't been created in the .crashsim folder. Preston advised to set up the crashsim environment again as a root user and doing so solved this issue.
+* Worked with the utility iostat to find time related bugs. Used the ReverseTimeMutator and also tested by manually changing the time in the snip file but observed no discernable differences during the replay.
+* Worked with the utility dmesg in hopes of finding a time related bug but I was unable to replay the test as I was getting an 'mmap_backing_files' error. So continued troubleshooting to get past this issue.
