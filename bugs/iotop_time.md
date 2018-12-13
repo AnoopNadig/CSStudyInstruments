@@ -14,4 +14,4 @@
 
 **Current Stage: Bug Hunting**
 
-Currently unable to complete replay as it just hangs. Suspect that a child process is being opened. Have to investigate further.
+Currently unable to create a test as it breaks. Suspect that a sub-process is being opened. Have to investigate further.
